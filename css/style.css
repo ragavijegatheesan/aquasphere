@@ -1,0 +1,37 @@
+.navbar-brand img{
+    width: 50%;
+}
+.navbar
+{
+    padding: 4% 3%;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    padding-left: 3rem !important;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-item
+{
+    height: 85vh;
+}
+.carousel-item .hero-content
+{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero-content h2
+{
+    font-size: 48px;
+    color: #000;
+    font-weight: bolder;
+    line-height: 4rem;
+}
+.hero-content p{
+    font-size: 18px;
+    line-height: 2rem;
+}
