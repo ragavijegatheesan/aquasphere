@@ -1,3 +1,7 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
 .navbar-brand img{
     width: 50%;
 }
@@ -12,6 +16,7 @@
     font-weight: 500;
     color: #000;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .carousel-item
 {
@@ -23,6 +28,7 @@
     top: 30%;
     left: 10%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .hero-content h2
 {
@@ -30,8 +36,76 @@
     color: #000;
     font-weight: bolder;
     line-height: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .hero-content p{
     font-size: 18px;
     line-height: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutqqasphere
+{
+    margin: 50px 0px;
+    overflow: hidden;
+} 
+.aboutqqasphere img{
+    width:98%
+}
+.aboutqqasphere h2
+{
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+.aboutqqasphere h2::before {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #0098da;
+    width: 4rem;
+    margin: 0 1rem;
+    vertical-align: middle;
+}
+.aboutqqasphere p{
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutqqasphere span{
+    font-size: 16px;
+    color: #000;
+    line-height: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.aboutqqasphere button
+{
+    margin-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cardintro
+{
+    color: #000;
+   background-color: #fff;
+   margin-bottom: -80px!important;
+   position: relative;
+   z-index: 999;
+   padding: 35px;
+   box-shadow: 2px 0px 44px -7px #00000024;
+   border-radius: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.product-details
+{
+    background-color: #0098da;
+    padding: 80px 20px;
+    text-align: center;
+}
+.product-details h2{
+    margin-top: 50px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
