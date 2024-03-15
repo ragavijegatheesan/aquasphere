@@ -100,12 +100,57 @@ body{
 }
 .product-details
 {
-    background-color: #0098da;
+    background-color: #0099da41;
     padding: 80px 20px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .product-details h2{
-    margin-top: 50px;
-    color: #fff;
+    margin: 50px 0px;
+    color: #000;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.product-details .card
+{
+    padding: 30px 10px;
+    color: #000;
+}
+footer
+{
+    padding: 50px 0px;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+
+}
+footer img{
+    width: 70%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+footer h3{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 18px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer ul{
+    list-style: none;
+    line-height: 2em;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    font-size: 18px;
+}
+footer svg{
+    width: 25px;
+    color: #0098da;
+    margin-right: 15px;
+
 }
