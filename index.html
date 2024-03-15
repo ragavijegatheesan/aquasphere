@@ -1,6 +1,6 @@
-<?php
-include('Header.php');
-?>
+<div include-html="Header.html" id="header_file"></div>
+
+
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -32,3 +32,12 @@ include('Header.php');
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#header_file').load('Header.html');
+});
+    </script>
+
