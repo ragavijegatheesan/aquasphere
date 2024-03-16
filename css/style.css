@@ -7,7 +7,9 @@ body{
 }
 .navbar
 {
-    padding: 4% 3%;
+
+   width: 85%;
+   margin: auto;
 }
 .navbar-expand-lg .navbar-nav .nav-link
 {
@@ -115,12 +117,17 @@ body{
     padding: 30px 10px;
     color: #000;
 }
+.footer
+{
+    background-color: #0098da;
+}
 footer
 {
     padding: 50px 0px;
     width: 85%;
     margin: auto;
     justify-content: space-around;
+   
 
 }
 footer img{
@@ -132,25 +139,123 @@ footer h3{
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     margin-bottom: 20px;
 }
 footer p{
     font-size: 18px;
-    color: #000;
+    color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer ul{
     list-style: none;
     line-height: 2em;
-    color: #000;
+    color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0px;
     font-size: 18px;
 }
 footer svg{
     width: 25px;
-    color: #0098da;
+    color: #fff;
     margin-right: 15px;
 
+}
+.breadcrumbs
+{
+    background-image: url("../images/hero2.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+  
+}
+.breadcrumbs ol li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutpagesection img
+{
+    width: 100%;
+}
+.aboutpagesection
+{
+    margin-top: 50px;
+}
+.aboutpagesection h2
+{
+    color: #000;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:3rem;
+}
+.aboutpagesection span{
+    color: #0098da;
+}
+.aboutpagesection p 
+{
+    font-size: 18px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2rem;
+    text-align: justify;
+}
+.mission
+{
+    width: 70%;
+    margin:50px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+   
+}
+.mission h5{
+    color: #0098da;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mission img{
+    width: 50%;
+}
+.productssection
+{
+    width: 80%;
+    margin:50px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.productssection .card-body
+{
+    
+    color: #fff;
+    background-color: #0098da;
+    border-radius: 0px 10px 0px  10px;
+  
+    
+}
+.productssection .card
+{
+    border-radius: 15px;
+    box-shadow: 2px 0px 44px -7px #00000024;
+    border: none;
+   
+}
+.productssection .card-title
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.productssection h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-bottom: 60px;
+}
+.contactsection
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
 }
